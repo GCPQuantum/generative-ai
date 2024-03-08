@@ -31,4 +31,4 @@ def predictCode(request):
     else:
         prompt_response = "No prompt provided."
 
-    return json.dumps({"response_text": prompt_response})
+    return json.dumps({"response_text": prompt_response.text})
